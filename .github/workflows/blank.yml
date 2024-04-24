@@ -8,6 +8,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: run echo comande
-      run:  apt update -y
-    - name: install apache 
-      run:  apt install httpd -y 
+      run:  echo bonjour >> /home/srv/adel.txt 

@@ -9,6 +9,9 @@ on:
       tags:
         description: 'Test scenario tags'  
 
+  repository_dispatch:
+     types: [opened, deleted]
+
 jobs:
   deploy :
     runs-on: self-hosted 

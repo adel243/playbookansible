@@ -11,7 +11,10 @@ on:
 
   repository_dispatch:
      types: [opened, deleted]
-
+  
+ 
+  check_run:
+        types: [rerequested, requested_action]
 jobs:
   deploy :
     runs-on: self-hosted 

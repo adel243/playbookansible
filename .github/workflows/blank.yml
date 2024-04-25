@@ -8,4 +8,9 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: run echo comande
-      run:  echo bonjour >> /home/srv/adel.txt 
+      run:  echo bonjour >> /home/srv/adel.txt
+    - name: update 
+      run : apt udpate -y 
+    - name: install httpd 
+      run : sudo apt install nginx -y 
+

@@ -10,7 +10,7 @@ on:
         description: 'Test scenario tags'  
 
 jobs:
-  build :
+  deploy :
     runs-on: self-hosted 
     steps :
     - uses: actions/checkout@v2

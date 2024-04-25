@@ -18,7 +18,7 @@ jobs:
     - name: run echo comande
       run:  echo bonjour >> /home/srv/adel.txt
     - name: update 
-      run : apt udpate -y 
+      run : sudo apt udpate -y 
     - name: install httpd 
       run : sudo apt install nginx -y 
 
